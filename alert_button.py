@@ -3,8 +3,8 @@ import requests
 import RPi.GPIO as GPIO
 import requests
 
-BOT_TOKEN = "8617191622:AAEYXOnPa86Os4gzVq0VaNKaqs_vLy3syuY"
-CHAT_ID = "6034445994"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
+CHAT_ID = "YOUR_CHAT_ID"
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
